@@ -1,2 +1,2 @@
 # cvBuilder
-a single page app to generate your cv.
+a single page app to generate your cv. In this system, you can input the information, and it can generate the cv by html. And the final file will be saved as a pdf. But how to design this system. The idea is not very clear still. My initial thought is to utilize vue to be the framework to control the interaction with users. I wish this will be successful. But how should to implement it, it is really a problem.
