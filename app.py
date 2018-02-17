@@ -2,8 +2,6 @@ from aip import AipSpeech
 from aip import AipOcr
 import subprocess
 import os
-import sys
-import time
 import io
 import yaml
 from PIL import Image
@@ -12,8 +10,6 @@ from mutagen.mp3 import MP3
 
 SCREENSHOT = 'screenshot.png'
 AUDIO = 'audio.mp3'
-
-
 
 def get_screenshort():
     if os.path.isfile(SCREENSHOT):
